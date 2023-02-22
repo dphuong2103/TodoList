@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dphuong2103.github.io/TodoList",
+  "homepage": "http://dphuong2103.github.io/todolist",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
